@@ -3,8 +3,6 @@
 
 
 name_hash = {:blake => 10, :ashley => 7, :adam => 17}
-
-  
 def key_for_min_value(name_hash)
   if name_hash == {}
   return nil
